@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlResult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csquestionapp.ResultActivity">
+
+    <com.example.csquestionapp.BackgroundColor
+        android:id="@+id/bgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvRes"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="#76FF03"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:layout_alignParentStart="true"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvRes2"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:background="#F44336"
+        android:layout_below="@+id/tvRes"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tvRes3"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:background="#FFEB3B"
+        android:layout_below="@+id/tvRes2"
+        android:layout_marginTop="33dp"
+        android:layout_alignEnd="@+id/tvRes2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+</RelativeLayout>

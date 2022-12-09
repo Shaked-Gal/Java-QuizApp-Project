@@ -1,0 +1,46 @@
+<resources>
+
+    // MainActivity Strings:
+    <string name="app_name">QuizApp</string>
+    <string name="your_score">Your Score</string>
+    <string name="start">Start</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="about">About</string>
+    <string name="quizApp">QuizApp</string>
+    <string name="highScores">High Scores</string>
+    <string name="language">Language</string>
+
+    // DevelopersActivity Strings:
+    <string name="developers">Developers</string>
+    <string name="back">Back</string>
+    <string name="shaked">Shaked Gal</string>
+    <string name="matan">Matan Zarchi</string>
+
+    // QuestionsActivity Strings:
+    // xml:
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="nextQuestion">Next Question</string>
+    <string name="quit">Quit</string>
+    <string name="questions">Questions</string>
+    <string name="yourScore">Your Score</string>
+    <string name="text_0">0</string>
+    // java:
+    <string name="hello_user">Hello user</string>
+    <string name="hello_text">Hello</string>
+
+    // ResultActivity Strings:
+    <string name="restart">Restart</string>
+    <string name="correctAns">Correct Answers: </string>
+    <string name="wrongAns">Wrong Answers: </string>
+    <string name="finalScore">Final Score: </string>
+
+    // HighScoresActivity Strings:
+    <string name="headline_highScores">High Scores:</string>
+    <string name="best1">best1:</string>
+    <string name="best2">best2:</string>
+    <string name="best3">best3:</string>
+    <string name="btnClean">Clean High Scores</string>
+</resources>

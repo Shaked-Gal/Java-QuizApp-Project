@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlHighScores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csquestionapp.QuestionsActivity">
+
+    <com.example.csquestionapp.BackgroundColor
+        android:id="@+id/bgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvHeadline_highScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headline_highScores"
+        android:layout_marginTop="10dp"
+        android:textSize="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF000000"
+        android:background="@drawable/headline_shape"/>
+
+    <ListView
+        android:id="@+id/lvHighScores"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvHeadline_highScores"
+        android:layout_above="@+id/btnClean_highScores" />
+
+
+    <Button
+        android:id="@+id/btnClean_highScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBack_highScores"
+        android:text="@string/btnClean"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnBack_highScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

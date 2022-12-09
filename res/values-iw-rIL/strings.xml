@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_score">תוצאה</string>
+    <string name="start">התחל</string>
+    <string name="enterYourName">"הכנס שם"</string>
+    <string name="about">אודות</string>
+    <string name="quizApp">חידון ג\'אווה</string>
+    <string name="developers">מפתחים</string>
+    <string name="back">חזור</string>
+    <string name="shaked">שקד גל</string>
+    <string name="matan">מתן זרחי</string>
+    <string name="a">א</string>
+    <string name="b">ב</string>
+    <string name="c">ג</string>
+    <string name="d">ד</string>
+    <string name="nextQuestion">שאלה הבאה</string>
+    <string name="quit">יציאה</string>
+    <string name="questions">שאלות</string>
+    <string name="yourScore">תוצאה</string>
+    <string name="text_0">0</string>
+    <string name="hello_user">שלום משתמש</string>
+    <string name="hello_text">שלום</string>
+    <string name="restart">התחל שוב</string>
+    <string name="language">שפה</string>
+    <string name="highScores">טבלת שיאים</string>
+    <string name="headline_highScores">שיאים:</string>
+    <string name="best1">שיא 1:</string>
+    <string name="best2">שיא 2:</string>
+    <string name="best3">שיא 3:</string>
+    <string name="btnClean">נקה שיאים</string>
+    <string name="correctAns">"תשובות נכונות: "</string>
+    <string name="wrongAns">"תשובות שגויות: "</string>
+    <string name="finalScore">"ניקוד סופי: "</string>
+    <string name="app_name">חידון ג\'אווה</string>
+</resources>

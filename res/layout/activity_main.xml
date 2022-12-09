@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csquestionapp.MainActivity" >
+
+    <com.example.csquestionapp.BackgroundColor
+        android:id="@+id/bgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvHeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quizApp"
+        android:layout_marginTop="48dp"
+        android:textSize="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF000000"
+        android:background="@drawable/headline_shape"
+        android:layout="@+id/bgBackground"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:autofillHints=""
+        android:textColor="#df040b"
+        android:hint="@string/enterYourName"
+        android:layout_above="@+id/btnStart"
+        android:layout_marginBottom="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="@string/start"
+        android:textSize="30sp"
+        android:layout_above="@+id/btnAbout"
+        android:layout_marginBottom="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF5722"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="@string/about"
+        android:textSize="30sp"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/btnHighScores"
+        android:layout_alignStart="@+id/btnStart"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnHighScores"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="@string/highScores"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/btnLanguage"
+        android:layout_alignStart="@+id/btnStart"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnLanguage"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="@string/language"
+        android:textSize="25sp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnStart"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#01579B"
+        android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>
