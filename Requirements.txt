@@ -1,0 +1,7 @@
+Add the dependency:
+
+implementation 'com.google.code.gson:gson:2.8.6'
+
+in Gradle Script:
+
+build.gradle (Module: CSQuestionApp.app)
